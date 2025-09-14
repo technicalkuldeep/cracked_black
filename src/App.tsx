@@ -4,7 +4,6 @@ import Cracked from "./components/Cracked"
 const App = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Background Image */}
       <img
         src={BG}
         alt="cover"
