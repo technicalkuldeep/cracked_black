@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Neue;
+  src: url(./assets/NeueMachina-Regular.otf);
+}
+
+@theme{
+  --font-neue: Neue;
+
+}
+
+@font-face {
+  font-family: Juana;
+  src: url(./assets/juana.ttf);
+}
+
+@theme{
+  --font-juana: Juana;
+
+}
