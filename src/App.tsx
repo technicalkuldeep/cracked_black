@@ -1,5 +1,5 @@
-import TextAnimations from "./components/TextAnimations"
 import BG from "./assets/cover.png"
+import Cracked from "./components/Cracked"
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <div className="absolute inset-0 bg-black/10" />
 
       <div className="relative z-10 h-full">
-        <TextAnimations />
+        <Cracked />
       </div>
     </div>
   )
